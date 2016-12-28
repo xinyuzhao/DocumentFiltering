@@ -1,7 +1,7 @@
 import re
 import math
 
-splitter = re.compile('\\W*')
+splitter = re.compile(r'\W*')
 
 def getWords(doc):
     words = set(s.lower() for s in splitter.split(doc) 
